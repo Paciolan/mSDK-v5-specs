@@ -7,7 +7,7 @@
   "authors": "Facebook",
   "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation -Wno-nullability-completeness -std=c++20",
   "source": {
-    "git": "https://gitlab+deploy-token-29:gldt-roeqdrmZ_d-xS8y3_3r8@gitlabdev.paciolan.info/development/application/integration/mobile/msdk-v5-pod"
+    "git": "https://github.com/Paciolan/mSDK-v5-pod"
   },
   "header_mappings_dir": "PaciolanSDK/Assets/Codegen",
   "platforms": {

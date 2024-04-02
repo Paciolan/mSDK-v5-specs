@@ -9,7 +9,7 @@
     "ios": "13.4"
   },
   "source": {
-    "git": "https://gitlab+deploy-token-29:gldt-roeqdrmZ_d-xS8y3_3r8@gitlabdev.paciolan.info/development/application/integration/mobile/msdk-v5-pod"
+    "git": "https://github.com/Paciolan/mSDK-v5-pod"
   },
   "resource_bundles": {
     "React-rncore": [
