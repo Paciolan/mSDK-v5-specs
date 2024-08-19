@@ -4,8 +4,7 @@
   "summary": "A react native company to select a contact from your phone's contact list",
   "license": "MIT",
   "authors": {
-    "name": "Streem",
-    "url": "originally LynxIT iDigital"
+    "name": "Streem (originally LynxIT iDigital)"
   },
   "homepage": "https://github.com/streem/react-native-select-contact",
   "platforms": {
