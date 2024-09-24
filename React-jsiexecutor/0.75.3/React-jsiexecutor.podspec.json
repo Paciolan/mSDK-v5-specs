@@ -20,29 +20,13 @@
   },
   "header_dir": "jsireact",
   "dependencies": {
-    "React-cxxreact": [
-      "0.75.3"
-    ],
-    "React-jsi": [
-      "0.75.3"
-    ],
-    "React-perflogger": [
-      "0.75.3"
-    ],
-    "RCT-Folly": [
-      "2024.01.01.00"
-    ],
-    "DoubleConversion": [
-
-    ],
-    "fmt": [
-      "9.1.0"
-    ],
-    "glog": [
-
-    ],
-    "React-jsinspector": [
-
-    ]
+    "React-cxxreact": ["0.75.3"],
+    "React-jsi": ["0.75.3"],
+    "React-perflogger": ["0.75.3"],
+    "RCT-Folly": ["2024.01.01.00"],
+    "DoubleConversion": [],
+    "fmt": ["9.1.0"],
+    "glog": [],
+    "React-jsinspector": []
   }
 }
