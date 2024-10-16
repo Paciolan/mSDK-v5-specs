@@ -17,9 +17,6 @@
   "exclude_files": "packages/react-native/ReactCommon/react/renderer/consistency/tests",
   "pod_target_xcconfig": {
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20",
-    "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon\" \"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon/react/renderer/consistency\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-rendererconsistency/React_rendererconsistency.framework/Headers\"",
-    "DEFINES_MODULE": "YES"
-  },
-  "module_name": "React_rendererconsistency",
-  "header_mappings_dir": "packages/react-native/ReactCommon"
+    "HEADER_SEARCH_PATHS": ""
+  }
 }

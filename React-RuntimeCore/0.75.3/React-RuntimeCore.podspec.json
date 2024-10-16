@@ -22,14 +22,12 @@
   ],
   "header_dir": "react/runtime",
   "pod_target_xcconfig": {
-    "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/boost\" \"$(PODS_ROOT)/Headers/Private/React-Core\" \"${PODS_TARGET_SRCROOT}/packages/react-native/ReactCommon\" \"${PODS_TARGET_SRCROOT}/packages/react-native/ReactCommon/react/runtime\"",
+    "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/boost\" \"$(PODS_ROOT)/Headers/Private/React-Core\" \"${PODS_TARGET_SRCROOT}/../..\"",
     "USE_HEADERMAP": "YES",
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20",
     "GCC_WARN_PEDANTIC": "YES"
   },
   "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation",
-  "header_mappings_dir": "packages/react-native/ReactCommon",
-  "module_name": "React_RuntimeCore",
   "dependencies": {
     "RCT-Folly/Fabric": ["2024.01.01.00"],
     "React-jsiexecutor": [],

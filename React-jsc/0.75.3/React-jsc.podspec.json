@@ -12,10 +12,9 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.75.3"
   },
-  "source_files": "packages/react-native/ReactCommon/jsc/JSCRuntime.{cpp,h}",
   "header_dir": "jsc",
-  "module_name": "React_jsc",
-  "header_mappings_dir": "packages/react-native/ReactCommon",
+  "source_files": "packages/react-native/ReactCommon/jsc/JSCRuntime.{cpp,h}",
+  "exclude_files": "packages/react-native/ReactCommon/jsc/**/test/*",
   "frameworks": "JavaScriptCore",
   "dependencies": {
     "React-jsi": ["0.75.3"]
