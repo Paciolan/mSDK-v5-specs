@@ -67,7 +67,7 @@
     "RNCMaskedView": ["0.3.1"],
     "RNGestureHandler": ["2.19.0"],
     "react-native-safe-area-context": ["4.11.0"],
-    "react-native-webview": ["13.12.2"],
+    "react-native-webview": ["13.12.3"],
     "CodePush": ["8.3.1"],
     "RNSentry": ["5.31.0"],
     "RNCPushNotificationIOS": ["1.11.0"],

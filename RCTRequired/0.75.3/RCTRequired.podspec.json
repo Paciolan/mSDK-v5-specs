@@ -12,6 +12,6 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.75.3"
   },
-  "source_files": "packages/react-native/Libraries/RCTRequired/**/*.{c,h,m,mm,cpp}",
+  "source_files": "packages/react-native/Libraries/Required/**/*.{c,h,m,mm,cpp}",
   "header_dir": "RCTRequired"
 }

@@ -12,11 +12,9 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.75.3"
   },
-  "source_files": "react/config/*.{m,mm,cpp,h}",
+  "source_files": "packages/react-native/ReactCommon/react/config/*.{m,mm,cpp,h}",
   "header_dir": "react/config",
   "pod_target_xcconfig": {
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20"
-  },
-  "header_mappings_dir": "./",
-  "module_name": "React_nativeconfig"
+  }
 }
