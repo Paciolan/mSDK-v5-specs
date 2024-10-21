@@ -20,14 +20,8 @@
     "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)/packages/react-native/Libraries/TypeSafety\""
   },
   "dependencies": {
-    "FBLazyVector": [
-      "0.75.3"
-    ],
-    "RCTRequired": [
-      "0.75.3"
-    ],
-    "React-Core": [
-      "0.75.3"
-    ]
+    "FBLazyVector": ["0.75.3"],
+    "RCTRequired": ["0.75.3"],
+    "React-Core": ["0.75.3"]
   }
 }

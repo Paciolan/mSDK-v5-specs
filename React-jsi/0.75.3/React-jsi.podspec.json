@@ -19,26 +19,17 @@
     "DEFINES_MODULE": "YES"
   },
   "dependencies": {
-    "boost": [
-
-    ],
-    "DoubleConversion": [
-
-    ],
-    "fmt": [
-      "9.1.0"
-    ],
-    "RCT-Folly": [
-      "2024.01.01.00"
-    ],
-    "glog": [
-
-    ]
+    "boost": [],
+    "DoubleConversion": [],
+    "fmt": ["9.1.0"],
+    "RCT-Folly": ["2024.01.01.00"],
+    "glog": []
   },
   "source_files": "packages/react-native/ReactCommon/jsi/**/*.{cpp,h}",
   "exclude_files": [
-"packages/react-native/ReactCommon/jsi/jsilib-posix.cpp",
-"packages/react-native/ReactCommon/jsi/jsilib-windows.cpp",
-"packages/react-native/ReactCommon/**/test/*",
-"packages/react-native/ReactCommon/jsi/jsi.cpp"]
+    "packages/react-native/ReactCommon/jsi/jsilib-posix.cpp",
+    "packages/react-native/ReactCommon/jsi/jsilib-windows.cpp",
+    "packages/react-native/ReactCommon/**/test/*",
+    "packages/react-native/ReactCommon/jsi/jsi.cpp"
+  ]
 }
