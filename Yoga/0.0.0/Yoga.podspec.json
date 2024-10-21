@@ -13,8 +13,8 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.75.3"
   },
-  "module_name": "Yoga",
-  "header_dir": "Yoga",
+  "module_name": "yoga",
+  "header_dir": "yoga",
   "requires_arc": false,
   "pod_target_xcconfig": {
     "DEFINES_MODULE": "YES",
@@ -80,7 +80,5 @@
     "packages/react-native/ReactCommon/yoga/yoga/style/StyleValueHandle.h",
     "packages/react-native/ReactCommon/yoga/yoga/style/StyleValuePool.h"
   ],
-  "preserve_paths": [
-    "packages/react-native/ReactCommon/yoga/yoga/**/*.h"
-  ]
+  "preserve_paths": ["packages/react-native/ReactCommon/yoga/yoga/**/*.h"]
 }
