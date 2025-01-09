@@ -66,7 +66,10 @@
     "React-rncore": [
       "0.75.3"
     ],
-    "React-RCTFabric": [
+    "React-nativeconfig": [
+      "0.75.3"
+    ],
+    "React-FabricComponents": [
       "0.75.3"
     ],
     "React-cxxreact": [
