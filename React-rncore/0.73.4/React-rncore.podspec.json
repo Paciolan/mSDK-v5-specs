@@ -9,12 +9,11 @@
     "ios": "13.4"
   },
   "source": {
-    "git": "https://github.com/Paciolan/mSDK-v5-pod"
+    "git": "https://github.com/Paciolan/mSDK-v5-pod",
+    "tag": "5.0.18"
   },
   "resource_bundles": {
-    "React-rncore": [
-      "PaciolanSDK/Assets/react/renderer/components/rncore/**/*.{h,mm,cpp}"
-    ]
+    "React-rncore": ["PaciolanSDK/Assets/react/renderer/components/rncore/**/*.{h,mm,cpp}"]
   },
   "pod_target_xcconfig": {
     "USE_HEADERMAP": "YES",
