@@ -11,7 +11,7 @@
   "authors": "Facebook",
   "source": {
     "git": "https://github.com/facebook/react-native.git",
-    "tag": "v0.75.3"
+    "tag": "v0.78.0"
   },
   "module_name": "yoga",
   "header_dir": "yoga",
@@ -29,7 +29,7 @@
     "-fPIC"
   ],
   "platforms": {
-    "ios": "13.4"
+    "ios": "15.1"
   },
   "source_files": "packages/react-native/ReactCommon/yoga/yoga/**/*.{cpp,h}",
   "header_mappings_dir": "packages/react-native/ReactCommon/yoga/yoga",
@@ -50,6 +50,7 @@
     "packages/react-native/ReactCommon/yoga/yoga/debug/AssertFatal.h",
     "packages/react-native/ReactCommon/yoga/yoga/debug/Log.h",
     "packages/react-native/ReactCommon/yoga/yoga/enums/Align.h",
+    "packages/react-native/ReactCommon/yoga/yoga/enums/BoxSizing.h",
     "packages/react-native/ReactCommon/yoga/yoga/enums/Dimension.h",
     "packages/react-native/ReactCommon/yoga/yoga/enums/Direction.h",
     "packages/react-native/ReactCommon/yoga/yoga/enums/Display.h",
@@ -71,12 +72,14 @@
     "packages/react-native/ReactCommon/yoga/yoga/event/event.h",
     "packages/react-native/ReactCommon/yoga/yoga/node/CachedMeasurement.h",
     "packages/react-native/ReactCommon/yoga/yoga/node/LayoutResults.h",
+    "packages/react-native/ReactCommon/yoga/yoga/node/LayoutableChildren.h",
     "packages/react-native/ReactCommon/yoga/yoga/node/Node.h",
     "packages/react-native/ReactCommon/yoga/yoga/numeric/Comparison.h",
     "packages/react-native/ReactCommon/yoga/yoga/numeric/FloatOptional.h",
     "packages/react-native/ReactCommon/yoga/yoga/style/SmallValueBuffer.h",
     "packages/react-native/ReactCommon/yoga/yoga/style/Style.h",
     "packages/react-native/ReactCommon/yoga/yoga/style/StyleLength.h",
+    "packages/react-native/ReactCommon/yoga/yoga/style/StyleSizeLength.h",
     "packages/react-native/ReactCommon/yoga/yoga/style/StyleValueHandle.h",
     "packages/react-native/ReactCommon/yoga/yoga/style/StyleValuePool.h"
   ],
