@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/Paciolan/mSDK-v5-pod.git",
-    "tag": "5.105.2602263953175"
+    "tag": "5.105.2602273958590"
   },
   "source_files": "PaciolanSDK/Assets/react/renderer/components/rncore/**/*.{h,mm,cpp}",
   "pod_target_xcconfig": {
